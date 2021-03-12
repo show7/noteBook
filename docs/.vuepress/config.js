@@ -1,8 +1,8 @@
 /*
  * @Author: yueqiang.zhou
  * @Date: 2020-05-14 17:09:48
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-06-12 11:54:21
+ * @LastEditors: yueqiang.zhou
+ * @LastEditTime: 2021-03-09 17:15:20
  * @Description: file contentex
  */
 module.exports = {
@@ -64,6 +64,12 @@ module.exports = {
         {
           title: '微前端',
           children: [ /* ... */ ]
+        },
+        {
+          title: 'nginx', // 必要的
+          children: [
+            '/notes/nginx/use_in_docker/'
+          ]
         }
       ]
     },
